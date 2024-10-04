@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>소개페이지👩‍💻</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="script.js"></script>
+</head>
+<body>
+  <div class="wrap">
+    <div class="dot">
+      <div class="inner">
+        <div class="cont">
+          <div class="lnb">
+            <div class="profile on">
+              <div class="profile-greeting">
+                <div class="profile-img">
+                  <img src="img/profile.jpg" alt="profile">
+                </div>
+                <p>안녕㈛パㅔ요 <br>프론트엔드 개발ㅈΓ 김민ズl 소개 페○lズl입LI⊂ト </p>
+              </div>
+              <div class="profile-name">
+                <p><strong>김민지</strong>(♀) 1997.02.10</p>
+                <p>kimem469@naver.com</p>
+              </div>
+              <div class="profile-wave">
+                <select name="wave" onchange="if (value !== 'none' && value !== '#') { window.open(value, '_blank'); }">
+                  <option value="#" selected>★파도타기★</option>
+                  <option value="https://bom-na.tistory.com/">블로그</option>
+                  <option value="https://github.com/minji7901">깃허브</option>
+                  <option value="none" disabled>노션(준비중)</option>
+                </select>
+              </div>
+            </div>
+          </div>
+          <div class="box">
+            <div id="tab1" class="intro on">
+              <h2>김민ズl 소개 페○lズl...★</h2>
+              <div class="miniroom">
+                <img src="img/miniroom.png" alt="">
+              </div>
+              <div class="ilchon">
+                <strong>일촌평</strong>
+                <form action="">
+                  <input type="text" class="ilchonpyeong" placeholder="일촌과 나누고 싶은 이야기를 남겨보세요~!">
+                  <button class="ilchonpyeong-btn">확인</button>
+                </form>
+              </div>
+              <div class="intro-text">
+              </div>
+            </div>
+            <div id="tab2" class="info">
+              <div class="title">
+                <div class="info-date">
+                  <strong></strong>
+                  <p></p>
+                </div>
+                <p>오늘의 일정이 없습니다.</p>
+              </div>
+              <div class="info-cont">
+                <ul>
+                  <li>
+                    <strong>education</strong>
+                    <p>
+                      e-비즈니스과 졸업
+                    </p>
+                    <p>디지털 웹 & 앱 디자인 콘텐츠 개발 수료</p>
+                  </li>
+                  <li>
+                    <strong>skill</strong>
+                    <p>html5</p>
+                    <p>css3</p>
+                    <p>scss</p>
+                    <p>javascript</p>
+                    <p>jquery</p>
+                    <p>react</p>
+                    <p>tailwindcss</p>
+                    <p>bootstrap</p>
+                  </li>
+                  <li>
+                    <strong>work experience</strong>
+                    <p>2021 ~ 2022 웹에이전시 퍼블리셔</p>
+                    <p>2022 ~ 2024 렌트카 퍼블리셔</p>
+                  </li>
+                  <li>
+                    <strong>certificate</strong>
+                    <p>GTQ 1</p>
+                    <p>웹디자인기능사</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div id="tab3" class="tmi">
+              <div class="top">
+                <p>15문 15답</p>
+              </div>
+              <ul>
+                <li><strong>1. 이름</strong>김민지</li>
+                <li><strong>2. 생년월일</strong>97.02.10</li>
+                <li><strong>3. mbti</strong>ENTJ</li>
+                <li><strong>4. 지역</strong>인천시</li>
+                <li><strong>5. 장래희망</strong>프론트엔드 개발자</li>
+                <li><strong>6. 취미</strong>러닝, 방송댄스, 독서</li>
+                <li><strong>7. 특기</strong>피아노</li>
+                <li><strong>8. 최근에 본 영화</strong>비긴어게인</li>
+                <li><strong>9. 요즘 재밌게 보는 TV 프로그램</strong>흑백요리사</li>
+                <li><strong>10. 키우는 강아지</strong>13살 말티즈 쭈</li>
+                <li><strong>11. 좋아하는 색</strong>노란색</li>
+                <li><strong>12. UFO는 어떻게 생겼을까?</strong>둥글게</li>
+                <li><strong>13. 좋아하는 만화</strong>원피스, 귀멸의 칼날</li>
+                <li><strong>14. 최근에 읽은 책</strong>자존감 수업</li>
+                <li><strong>15. 15문 15답을 한 소감은?</strong>귀찮다</li>
+              </ul>
+            </div>
+            
+          </div>
+          <nav class="side-bar">
+            <a href="#tab1" class="on">홈</a>
+            <a href="#tab2">프로필</a>
+            <a href="#tab3">TMI</a>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
